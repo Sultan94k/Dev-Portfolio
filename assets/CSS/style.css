@@ -27,7 +27,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     -webkit-transition: .6s ease all;
-    transition: .6s ease all;
+    transition: .8s ease all;
   }
   .navbar a:hover{
     color: black;
@@ -267,7 +267,9 @@ body {
     margin: 7px;
     padding: 5px 10px;
     color: white;
-    background: #31b0d5;
+    /* background: #31b0d5; */
+    background-image: url("https://pixabay.com/get/55e2d1454b50a814ea9d8d79c328337f1022dfe05455764876267dd7/background-3246124.jpg");
+    /* background-size: cover; */
     list-style: none;
     cursor: default;
     font-size: 1.2em;

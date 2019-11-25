@@ -8,17 +8,16 @@ body {
     box-sizing: border-box
   }
   
-  /*NAVBAR*/
+  /*! Navbar*/
   .navbar {
     background-color: #31b0d5;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #fff;
     box-shadow: 0px 25px 15px -18px rgb(202, 201, 201);
-    /* margin: -50px auto 10px;  */
   }
   
   .navbar a {
@@ -69,7 +68,6 @@ body {
   }
   
   .jumbotron-text h1 {
-    /*YOUR NAME*/
     text-transform: uppercase;
     font-weight: 800;
     font-size: 3em;
@@ -90,10 +88,13 @@ body {
     margin: -50px auto 10px; 
   }
   
-  /*SOCIAL LINKS*/
+  /*! Socials*/
   .ul-social {
     text-align: center;
     padding-left: 0;
+  }
+  .social:hover{
+    color: rgba(71, 70, 70, 0.822);
   }
   
   .li-social-links {
@@ -107,31 +108,55 @@ body {
     padding: 20px;
   }
   
-  /*ARROW LINK*/
+  /*? Arrow link*/
   #down-arrow {
     /*position: absolute;
     width: 100%;*/
+    
     margin-top: auto;
     text-align: center;
     margin-bottom: 50px;
   }
   
   #down-arrow a {
+    font-size: 30pt;
     color: white;
   }
+  #down-arrow a:hover{
+    color: rgba(71, 70, 70, 0.822);
+  }
   
-  /*CONTENT*/
+  /*! Contents*/
   .container {
-    /*sets up flexbox*/
     display: flex;
     flex-direction: column;
   }
   
+  
   .row {
     display: flex;
+    
   }
+
+  /*! Footer*/
+  .row-footer{
+    background-color: teal;
+    border-top: 2px solid whitesmoke;
+    background-image: url("https://pixabay.com/get/55e2d1454b50a814ea9d8d79c328337f1022dfe05455764876267dd7/background-3246124.jpg");
+    background-size: cover;
+  }
+  .main-content {
+    /* flex: 0 0 66.6%; */
+    width: 100%;
+  }
+ .content-body p{
+    line-height: 1.5;
+    /* font-size: 15pt; */
+    color: rgb(248, 246, 246);
+    text-align: center;
+        }
   
-  .white {
+  .white { /*? Skills section*/
     background: white;
   }
   
@@ -139,11 +164,6 @@ body {
     flex: 0 0 16.6%;
   }
   
-  .main-content {
-    flex: 0 0 66.6%;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-  }
   
   .side-content-sm {
     flex: 0 0 10%;
@@ -169,12 +189,8 @@ body {
     text-align: center;
   }
   
-  .content-body {
-    line-height: 1.5;
-    color: rgba(0,0,0,.75);
-  }
   
-  /*EDUCATION*/
+  /*! Education*/
   .card {
     display: flex;
     flex-direction: column;
@@ -207,7 +223,7 @@ body {
     float: right;
   }
   
-  /*PROJECTS*/
+  /*! projects*/
   .project-card {
     display: flex;
     flex-direction: row;
@@ -237,7 +253,7 @@ body {
     flex-direction: column;
   }
   
-  /*SKILLS*/
+  /*! Skills*/
   .ul-skills {
     text-align: center;
     padding-left: 0;
@@ -256,9 +272,11 @@ body {
     font-size: 1.2em;
   }
   
-  /*CONTACT*/
+  /*!Contacts*/
   .blue {
     background: #3498db;
+    /* background-image: url("https://pixabay.com/get/55e2d1454b50a814ea9d8d79c328337f1022dfe05455764876267dd7/background-3246124.jpg");
+    background-size: cover; */
     text-align: center;
   }
   
@@ -274,12 +292,19 @@ body {
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
-    background: #1d6fa5;
-    color: #fff;
+    background: whitesmoke;
+    color: black;
+    text-align: center;
+    font-size: 12pt;
     -webkit-transition: .5s ease all;
     transition: .5s ease all;
   }
-  
+  .inputlen{
+    width: 400px !important;
+    margin: auto !important;
+    margin-bottom: 8px !important;
+  }
+
   .contact textarea {
     height: 150px;
     resize: none;
@@ -287,7 +312,8 @@ body {
   
   .contact button {
     display: block;
-    width: 100%;
+    margin: auto;
+    width: 50%;
     background: #fff;
     border-radius: 4px;
     padding: 5px 10px;
@@ -304,7 +330,7 @@ body {
   }
 
   .actionss{
-    margin-top: 20px;
+    margin: 20px;
   }
 
   .actionss a{
@@ -312,3 +338,4 @@ body {
     text-decoration: none;
     font-size: 16pt;
   }
+

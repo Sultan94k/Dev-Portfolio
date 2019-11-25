@@ -26,6 +26,8 @@ body {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
+    -webkit-transition: .6s ease all;
+    transition: .6s ease all;
   }
   .navbar a:hover{
     color: black;
@@ -93,9 +95,6 @@ body {
     text-align: center;
     padding-left: 0;
   }
-  .social:hover{
-    color: rgba(71, 70, 70, 0.822);
-  }
   
   .li-social-links {
     display: inline-block;
@@ -106,13 +105,15 @@ body {
     font-size: 2em;
     color: white;
     padding: 20px;
+    -webkit-transition: .6s ease all;
+    transition: .6s ease all;
   }
+  .social:hover{
+   color: rgba(71, 70, 70, 0.822);
+ }
   
   /*? Arrow link*/
   #down-arrow {
-    /*position: absolute;
-    width: 100%;*/
-    
     margin-top: auto;
     text-align: center;
     margin-bottom: 50px;
@@ -121,6 +122,8 @@ body {
   #down-arrow a {
     font-size: 30pt;
     color: white;
+    -webkit-transition: .6s ease all;
+    transition: .6s ease all;
   }
   #down-arrow a:hover{
     color: rgba(71, 70, 70, 0.822);
@@ -146,14 +149,12 @@ body {
     background-size: cover;
   }
   .main-content {
-    /* flex: 0 0 66.6%; */
     width: 100%;
   }
  .content-body p{
     line-height: 1.5;
-    /* font-size: 15pt; */
-    color: rgb(248, 246, 246);
-    text-align: center;
+    color: black;
+    /* text-align: center; */
         }
   
   .white { /*? Skills section*/
@@ -324,6 +325,10 @@ body {
     -webkit-transition: .5s ease all;
     transition: .5s ease all;
   }
+  .contact button:hover{
+    color: rgba(8, 8, 8, 0.918);
+    background-color: palegoldenrod;
+  }
   
   .white-text {
     color: white;
@@ -337,5 +342,25 @@ body {
     color: wheat;
     text-decoration: none;
     font-size: 16pt;
+    -webkit-transition: .6s ease all;
+    transition: .6s ease all;
   }
+  .actionss a:hover{
+    color: rgba(71, 70, 70, 0.822);
+  }
+
+  .footer-body{
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  /* .logo-sk{
+    font-size: 18pt;
+    position: relative;
+    font-weight: bold;
+    border: 1px solid whitesmoke;
+    width: 5%;
+    height: 40%;
+    border-radius: 50%;
+  } */
 

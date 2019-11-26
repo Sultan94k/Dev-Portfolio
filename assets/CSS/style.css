@@ -7,6 +7,10 @@ body {
   * {
     box-sizing: border-box
   }
+
+  .firstImg{
+    z-index: -2;
+  }
   
   /*! Navbar*/
   .navbar {
@@ -51,13 +55,32 @@ body {
   .jumbotron {
     height: 100vh;
     /* background: yellowgreen;  */
-    background-image: url("https://pixabay.com/get/55e2d1454b50a814ea9d8d79c328337f1022dfe05455764876267dd7/background-3246124.jpg");
-    /* backdrop-filter: blur(8px); */
-    background-size: cover;
+    background-image: url("../images/background-3246124.jpg"); 
+    background-size: cover; /* 99% 1000px; for image to slide*/
     margin-bottom: 0; 
     display: flex;
     flex-direction: column;
+    /* background-repeat: repeat-x;
+            animation: slideLeft 19s linear infinite;
+            background-position: 0% 100%; */
   }
+  /* @keyframes slideLeft {
+    to {
+        background-position: 9900% 100%;
+    }
+}
+
+@-moz-keyframes slideLeft {
+    to {
+        background-position: 9900% 100%;
+    }
+}
+
+@-webkit-keyframes slideLeft {
+    to {
+        background-position: 9900% 100%;
+    }
+} */
   
   /*? jumbo text */
   .jumbotron-text {
@@ -145,7 +168,7 @@ body {
   .row-footer{
     background-color: teal;
     border-top: 2px solid whitesmoke;
-    background-image: url("https://pixabay.com/get/55e2d1454b50a814ea9d8d79c328337f1022dfe05455764876267dd7/background-3246124.jpg");
+    background-image: url("../images/background-3246124.jpg");
     background-size: cover;
   }
   .main-content {
@@ -268,7 +291,7 @@ body {
     padding: 5px 10px;
     color: white;
     /* background: #31b0d5; */
-    background-image: url("https://pixabay.com/get/55e2d1454b50a814ea9d8d79c328337f1022dfe05455764876267dd7/background-3246124.jpg");
+    background-image: url("../images/background-3246124.jpg");
     /* background-size: cover; */
     list-style: none;
     cursor: default;
@@ -301,6 +324,9 @@ body {
     font-size: 12pt;
     -webkit-transition: .5s ease all;
     transition: .5s ease all;
+  }
+  textarea[name="message"]{
+    text-align: left;
   }
   .inputlen{
     width: 400px !important;

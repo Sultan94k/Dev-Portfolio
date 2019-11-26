@@ -328,6 +328,7 @@ body {
   textarea[name="message"]{
     text-align: left;
   }
+  
   .inputlen{
     width: 400px !important;
     margin: auto !important;

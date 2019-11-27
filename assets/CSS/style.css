@@ -278,6 +278,9 @@ body {
   }
   
   /*! Skills*/
+.main-content{
+ text-align: center !important;
+}
   .ul-skills {
     text-align: center;
     padding-left: 0;
@@ -297,7 +300,17 @@ body {
     cursor: default;
     font-size: 1.2em;
   }
-  
+
+  #skills{
+    text-align: center;
+  }
+  .containerSkill{
+    align-content: center;
+  }
+  .skillset{
+    margin-left: 185px;
+    /* text-align: center; */
+  }
   /*!Contacts*/
   .blue {
     background: #3498db;

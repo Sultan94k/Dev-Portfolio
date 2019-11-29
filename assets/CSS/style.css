@@ -309,7 +309,6 @@ body {
   }
   .skillset{
     margin-left: 185px;
-    /* text-align: center; */
   }
   /*!Contacts*/
   .blue {
@@ -338,6 +337,7 @@ body {
     -webkit-transition: .5s ease all;
     transition: .5s ease all;
   }
+
   textarea[name="message"]{
     text-align: left;
   }
@@ -396,13 +396,4 @@ body {
     text-align: center;
   }
 
-  /* .logo-sk{
-    font-size: 18pt;
-    position: relative;
-    font-weight: bold;
-    border: 1px solid whitesmoke;
-    width: 5%;
-    height: 40%;
-    border-radius: 50%;
-  } */
 
